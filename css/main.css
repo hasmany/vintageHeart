@@ -1,4 +1,4 @@
-/*DEFAULT STYLES*/
+/*GLOBAL STYLES*/
 /*############################*/
 
 * {
@@ -7,11 +7,15 @@
             box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 div {
   border: 1px solid blue;
   background: white;
   padding: 20px;
-  margin: 40px;
+  /*margin: 40px;*/
 }
 
 span {
@@ -53,3 +57,30 @@ body {
 .footer {
   background: #222;
 }
+
+/* HEADER STYLES*
+/*#########################*/
+
+.header {
+  padding: .75em 0 .5em;
+  background: #F7F5F2;
+  border-bottom: 5px solid #a8988b;
+}
+
+.header:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  border: 1px solid red;
+}
+
