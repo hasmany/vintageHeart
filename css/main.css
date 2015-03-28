@@ -84,3 +84,20 @@ nav {
   border: 1px solid red;
 }
 
+/* MAIN IMAGE STYLES*/
+/*#########################*/
+
+.banner {
+  background: #4d717a;
+  color: #fff;
+  border-bottom: 1px solid #a8988b;
+  padding: 120px 50px;
+}
+
+.tagline {
+  font-size: 100px;
+}
+
+.address {
+  font-size: 30px;
+}
