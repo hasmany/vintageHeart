@@ -14,7 +14,7 @@ body {
 div {
   border: 1px solid blue;
   background: white;
-  padding: 20px;
+  /*padding: 20px;*/
   /*margin: 40px;*/
 }
 
@@ -100,4 +100,61 @@ nav {
 
 .address {
   font-size: 30px;
+}
+
+/*ABOUT TEXT STYLES*/
+/*#########################*/
+
+.about:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear:both;
+}
+
+.introtext {
+  float: left;
+  width: 50%;
+}
+
+/*HOURS AND DIRECTIONS*/
+/*#########################*/
+
+.hoursdirections:after {
+  content: "";
+  visibility: hidden;
+  height: 0;
+  display: block;
+  clear: both;
+}
+
+.hoursdirections .address {
+  font-size: 2em;
+  margin: 3em 0 .5em;
+  float: left;
+  width: 45%;
+}
+
+.hoursdirections .hours {
+  float: left;
+  clear: left;
+  width: 45%;
+  font-size: 1.25em;
+}
+
+.hoursdirections .map {
+  float: left;
+}
+
+/*FOOTER STYLES*/
+/*#########################*/
+
+.footer {
+  background: #222;
+  padding: 60px;
+}
+
+.footer nav {
+  float: none;
 }
