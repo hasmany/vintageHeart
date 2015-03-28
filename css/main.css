@@ -9,6 +9,25 @@
 
 body {
   margin: 0;
+  font-size: 100%;
+  line-height: 1.5em;
+  color: #222;
+  font-family: "Noto Serif", Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, nav {
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+a, a:active, a:visited {
+  color: #4d717a;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #9cb89a;
+  text-decoration:none;
 }
 
 div {
@@ -76,6 +95,7 @@ body {
 }
 
 .logo {
+  color: #555;
   float: left;
 }
 
@@ -99,6 +119,7 @@ nav {
 }
 
 .address {
+  color: #fff;
   font-size: 30px;
 }
 
@@ -113,6 +134,14 @@ nav {
   clear:both;
 }
 
+.about h4 {
+  color: #a18c9c;
+}
+
+.about p {
+  color: #222f42;
+}
+
 .introtext {
   float: left;
   width: 50%;
@@ -120,6 +149,10 @@ nav {
 
 /*HOURS AND DIRECTIONS*/
 /*#########################*/
+
+.hoursdirections {
+  color: #694160;
+}
 
 .hoursdirections:after {
   content: "";
@@ -134,12 +167,14 @@ nav {
   margin: 3em 0 .5em;
   float: left;
   width: 45%;
+  color: #694160;
 }
 
 .hoursdirections .hours {
   float: left;
   clear: left;
   width: 45%;
+  color: #798a77;
   font-size: 1.25em;
 }
 
@@ -152,6 +187,7 @@ nav {
 
 .footer {
   background: #222;
+  color: #F7F5F2;
   padding: 60px;
 }
 
