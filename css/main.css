@@ -1,0 +1,31 @@
+/*Default styles*/
+/*############################*/
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+div {
+  border: 1px solid blue;
+  background: white;
+  padding: 20px;
+  margin: 40px;
+}
+
+span {
+  background: pink;
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+}
+
+body {
+  background: #ccc;
+}
+
+
+
+
