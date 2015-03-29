@@ -39,12 +39,7 @@ a:hover, a:focus {
   text-decoration:none;
 }
 
-div {
-  border: 1px solid blue;
-  background: white;
-  /*padding: 20px;*/
-  /*margin: 40px;*/
-}
+
 
 span {
   background: pink;
@@ -89,10 +84,6 @@ body {
 
 .banner {
   background: #4d717a;
-}
-
-.about {
-  background: #222;
 }
 
 .hoursdirections {
@@ -145,7 +136,6 @@ body {
 
 nav {
   float: right;
-  border: 1px solid red;
 }
 
 /* BANNER STYLES */
@@ -163,6 +153,7 @@ nav {
 
 .tagline {
   font-size: 100px;
+  line-height: 100px;
 }
 
 .address {
@@ -170,7 +161,7 @@ nav {
   font-size: 30px;
 }
 
-/*ABOUT TEXT STYLES*/
+/*ABOUT STYLES*/
 /*#########################*/
 
 .about:after {
@@ -199,6 +190,7 @@ nav {
 /*#########################*/
 
 .hoursdirections {
+  background: #ffffff;
   color: #694160;
 }
 
@@ -211,10 +203,11 @@ nav {
 }
 
 .hoursdirections .address {
-  font-size: 2em;
-  margin: 3em 0 .5em;
   float: left;
   width: 45%;
+  margin: 3em 0 .5em;
+  font-size: 2em;
+  text-transform: uppercase;
   color: #694160;
 }
 
@@ -227,7 +220,10 @@ nav {
 }
 
 .hoursdirections .map {
-  float: left;
+  float: right;
+  background: black;
+  width: 45%;
+  height: 220px;
 }
 
 /*FOOTER STYLES*/
