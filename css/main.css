@@ -1,5 +1,6 @@
-/*GLOBAL STYLES*/
-/*############################*/
+/*###############################*/
+/*## GLOBAL STYLES ###############*/
+/*###############################*/
 
 * {
     -webkit-box-sizing: border-box;
@@ -15,14 +16,22 @@ body {
   font-family: "Noto Serif", Georgia, serif;
 }
 
+/* TYPOGRAPHY */
+/*############################*/
+
 h1, h2, h3, h4, h5, nav {
   font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
+/* LINKS */
+/*############################*/
+
 a, a:active, a:visited {
   color: #4d717a;
   text-decoration: none;
+  transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
 }
 
 a:hover, a:focus {
@@ -94,7 +103,11 @@ body {
   background: #222;
 }
 
-/* HEADER STYLES*
+/*#############################*/
+/*## LAYOUT ###################*/
+/*############################*/
+
+/* HEADER STYLES */
 /*#########################*/
 
 .header {
@@ -105,6 +118,9 @@ body {
   padding: .75em 0 .5em;
   background: #F7F5F2;
   border-bottom: 5px solid #a8988b;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0.0.2);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
 
 .header:after {
@@ -132,14 +148,17 @@ nav {
   border: 1px solid red;
 }
 
-/* MAIN IMAGE STYLES*/
+/* BANNER STYLES */
 /*#########################*/
 
 .banner {
   background: #4d717a;
+  background-image: url("../images/banner_counter.png");
+  background-size: cover;
   color: #fff;
   border-bottom: 1px solid #a8988b;
   padding: 120px 50px;
+  min-height: 500px;
 }
 
 .tagline {
@@ -164,6 +183,7 @@ nav {
 
 .about h4 {
   color: #a18c9c;
+  border-bottom: 2px solid rgba(161, 140, 156, .25);
 }
 
 .about p {
