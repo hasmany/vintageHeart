@@ -131,7 +131,7 @@ nav a {
 .banner {
   /*background: #4d717a;*/
   min-height: 540px;
-  background: url('../images/banner_counter.png') 0 -220px no-repeat;
+  background: url('../images/banner_counter.png');
   background-size: cover;
   border-bottom: 1px solid #a8988b;
   padding: 120px 50px;
@@ -151,6 +151,10 @@ nav a {
 /*ABOUT STYLES*/
 /*#########################*/
 
+.about {
+  margin: 4em 0;
+}
+
 .about:after {
   content: "";
   visibility: hidden;
@@ -159,8 +163,18 @@ nav a {
   clear:both;
 }
 
+.about .introtext {
+  float: left;
+  width: 50%;
+  padding: 0 4.5em 0 0;
+}
+
 .about h4 {
+  margin-bottom: .75em;
+  padding-bottom: 2px;
   color: #a18c9c;
+  text-shadow: 1px 1px 1px #FFF;
+  border-bottom: 2px solid #ccc;
   border-bottom: 2px solid rgba(161, 140, 156, .25);
 }
 
@@ -168,16 +182,13 @@ nav a {
   color: #222f42;
 }
 
-.introtext {
-  float: left;
-  width: 50%;
-}
-
 /*HOURS AND DIRECTIONS*/
 /*#########################*/
 
 .hoursdirections {
-  background: #ffffff;
+  clear:both;
+  padding: 1em 0 4em;
+  background: #fff url('../images/pattern.png');
   color: #694160;
 }
 
@@ -194,6 +205,7 @@ nav a {
   width: 45%;
   margin: 3em 0 .5em;
   font-size: 2em;
+  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #694160;
 }
@@ -208,9 +220,9 @@ nav a {
 
 .hoursdirections .map {
   float: right;
-  background: black;
   width: 45%;
   height: 220px;
+  /*height trick floating?*/
 }
 
 /*FOOTER STYLES*/
